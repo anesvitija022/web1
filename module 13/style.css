@@ -1,55 +1,66 @@
-#static{
-    position: static;
-    border: 3px solid red;
-    width: 250px;
-    height: 250px;
-    padding: 20px;
+ul{
+    /*list-style-type: square;
+    list-style-image: url("plus.png");*/
 }
-#relative{
-    position: relative;
-    border: 3px solid blue;
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-    left: 200px;
-    top: 20px;
+ol{
+    /*list-style-type: upper-roman;*/
+    background: #ffeeee;
+    padding: 15px;
+}
+ol li{
+    background: #ffe5e5;
+    padding: 10px;
+    margin-left: 30px;
 }
 
-#h1fixed{
-    position: fixed;
-    right: 300px;
-    top: 20px;
-}
-#fixed{
-    position: fixed;
-    border: 3px solid green;
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-    right: 200px;
-    top: 100px;
+/*ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid grey;
 }
 
-#parent{
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border: 3px solid orange;
-}
-#absolute{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
-    right: 80px;
-    top: 70px;
-    color: white;
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}*/
+
+ul{
+    border-left: 5px solid green;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 20px;
 }
 
-#sticky{
-    position: sticky;
-    background-color: yellow;
-    padding: 20px;
-    top: 0px;
-    color: blueviolet;
+/* table{ 
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid #eee;
+    padding: 15px;
+}
+tbody tr:nth-child(odd){
+    background-color: #ff33cc;
+}
+tbody tr:nth-child(even){
+    background-color: #d193c1;
+}
+div{
+    overflow: scroll;
+    background-color: #f27979;
+    width: 200px;
+    height: 200px;
+}*/
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    text-align: left;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #eae2e2;
 }

@@ -1,57 +1,45 @@
-/* article p{
-    background-color: blue;
-    color: white;
-    padding: 20px;
+h1{
+    color:green;
+    letter-spacing: 20px;
+    word-spacing: 20px;
 }
-
-article > p{
-    background-color: red;
+p{
+    text-indent: 50px;
+    text-align: center;
 }
-
-article ~ p{
-    background-color: purple;
-    color: white;
-    padding: 20px;
+h2{
+    text-decoration: overline;
 }
-
-article + p{
-    background-color: orange;
+h3{
+    text-decoration: line-through;
 }
- */
-
-input:out-of-range{
-    border: 1px solid red;
+h4{
+    text-decoration: underline;
 }
-
-form{
-    margin-top:20px ;
-}
-
-input:invalid{
-    border:2px solid red;
-}
-input:valid{
-    border:2px solid green;
-}
-
-span:first-of-type{
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-
-p::first-line{
+.myElement{
     color: blue;
 }
-p::first-letter{
-    font-size: 40px;
+#paragraph1{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
 }
-h1:before{
-    content: url("OIP.png");
+#paragraph2{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
 }
-
-::selection{
-    color: white;
-    background-color: red;
+#paragraph3{
+    font-style: oblique;
+    font-size: 50px;
+    font-weight: 900;
 }
-
+a{
+    color:blueviolet;
+}
+a:hover{
+    color:red;
+}
+a:visited{
+    color:green;
+}
