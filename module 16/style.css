@@ -1,0 +1,33 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid yellow;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover{
+    border: 1px solid red;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.description{
+    padding: 15px;
+    text-align: center;
+}
+
+.sprite{
+    background: url("/images/img.jpg") no-repeat;
+}
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 500px 500px;
+}
+
+a[href="google.com"]{
+    color: blue;
+}
