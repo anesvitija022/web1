@@ -79,6 +79,8 @@ margin:auto;
 .about img{
 width:350px;
 border-radius:10px;
+border-style:groove;
+border-width: 20px;
 }
 
 /* GALLERY */
