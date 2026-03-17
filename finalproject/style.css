@@ -6,30 +6,31 @@ box-sizing:border-box;
 
 body{
 font-family:Segoe UI;
-background:#f4f4f4;
-color:#333;
+background:black;
+color:#ffffff;
 }
 
 /* NAVBAR */
 
 header{
-background:#111;
-color:white;
+background:black;
+color:teal;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 60px;
+border: darkslategrey solid 5px;
 }
 
 nav a{
-color:white;
+color:cyan;
 text-decoration:none;
 margin-left:20px;
 transition:0.3s;
 }
 
 nav a:hover{
-color:#d4a373;
+color:teal;
 }
 
 /* HERO */
@@ -78,9 +79,13 @@ margin:auto;
 
 .about img{
 width:350px;
-border-radius:10px;
+border-radius:30px;
 border-style:groove;
 border-width: 20px;
+border-color: teal;
+}
+.about img:hover{transform:scale(1.05);
+transition:0.4s;
 }
 
 /* GALLERY */
@@ -100,8 +105,9 @@ margin-top:30px;
 
 .gallery-grid img{
 width:220px;
-border-radius:10px;
+border-radius:30px;
 transition:0.4s;
+border: 7px groove teal;
 }
 
 .gallery-grid img:hover{
@@ -121,12 +127,13 @@ table{
 width:60%;
 margin:auto;
 border-collapse:collapse;
-background:white;
+background:grey;
+color: black;
 }
 
 th{
-background:#111;
-color:white;
+background:darkslategrey;
+color:black;
 }
 
 th,td{
@@ -139,16 +146,18 @@ text-align:center;
 
 .contact{
 text-align:center;
-padding:60px;
-background:#111;
-color:white;
+font-size: larger;
+padding: 250px;
+background:black;
+color:white;;
+border-bottom: darkslategrey solid 5px;
 }
 
 /* FOOTER */
 
 footer{
 text-align:center;
-background:black;
+background:darkslategrey;
 color:white;
 padding:20px;
 }
